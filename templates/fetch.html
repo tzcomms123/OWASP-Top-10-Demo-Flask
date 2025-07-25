@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Fetch a URL</h2>
+<form method="post">
+    URL: <input name="url">
+    <button type="submit">Fetch</button>
+</form>
+<pre>{{ content }}</pre>
+{% endblock %}

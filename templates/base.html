@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insecure Flask Demo</title>
+</head>
+<body>
+    <h1> Insecure Flask Demo</h1>
+    <nav>
+        <a href="/">Dashboard</a> |
+        <a href="/admin">Admin</a> |
+        <a href="/search">Search</a> |
+        <a href="/fetch">Fetch</a> |
+        <a href="/secret-form">Secret Form</a> |
+        <a href="/debug">Debug</a> |
+        <a href="/logout">Sign Out</a>
+    </nav>
+    <hr>
+    {% block content %}{% endblock %}
+</body>
+</html>

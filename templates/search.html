@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Search Users (SQL Injection Demo)</h2>
+<form method="post">
+    
+
+    Keyword: <input name="keyword" required>
+
+    <button type="submit">Search</button>
+</form>
+{% if result %} 
+    <ul>
+        {% for row in result %}
+            <li>{{ row.username }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+
+
+{% if error %}
+    <p style="color:red">{{ error }}</p>
+{% endif %}
+
+
+{% endblock %}
