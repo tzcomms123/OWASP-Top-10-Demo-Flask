@@ -84,13 +84,13 @@ Visit: http://127.0.0.1:5000
 In console run:
 
 ```bash
-python seed_secure.py  # Seeds users and simulates bad practices
+python seed_secure.py  # Seeds users with fixes to security
 ```
 
 You can now login with the test users with user name and password as shown in the seed file. 
 
 
-3. Run App (INSECURE MODE)
+3. Run App (SECURE MODE)
 
 In console run:
 
