@@ -47,7 +47,7 @@ git clone https://github.com/tzcomms123/OWASP-Top-10-Demo-Flask.git
 cd OWASP-Top-10-Demo-Flask
 
 python -m venv myenv
-source venv/bin/activate  # Windows (using powershell): myenv/Scripts/activate
+source myenv/bin/activate  # Windows (using powershell): myenv/Scripts/activate
 
 pip install -r requirements.txt
 ```
