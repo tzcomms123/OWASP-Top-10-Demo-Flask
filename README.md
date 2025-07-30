@@ -55,7 +55,7 @@ pip install -r requirements.txt
 
 ### INSECURE VERSION
 
-2. Initialize Database and Seed
+2. Initialise Database and Seed
 
 In console run:
 
@@ -79,7 +79,7 @@ Visit: http://127.0.0.1:5000
 
 ### SECURE VERSION
 
-2. Initialize Database and Seed
+2. Initialise Database and Seed
 
 In console run:
 
