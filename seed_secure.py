@@ -1,9 +1,9 @@
 
-## Here's the `seed.py` file to create insecure users and bad states.
+## Here's the `seed.py` file to create secure users and safe states.
 
 
-from app import db, User
-from app import app
+from app_secure import db, User
+from app_secure import app
 from werkzeug.security import check_password_hash, generate_password_hash
 
 # Drop and recreate the database

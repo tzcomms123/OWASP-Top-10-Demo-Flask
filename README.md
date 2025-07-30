@@ -30,7 +30,7 @@ A06 | Vulnerable & Outdated Components | `requirements.txt` uses known-vulnerabl
 
 A07 | Identification & Auth Failures | Login is easily bypassed, no session timeout 
 
-A08 | Software/Data Integrity Failures | `/upload-check` — verifies file integrity using user input 
+A08 | Software/Data Integrity Failures | `/secret-form` — verifies file integrity using user input 
 
 A09 | Logging & Monitoring Failures | No error logging or activity logging at all 
 
@@ -46,8 +46,8 @@ A10 | Server-Side Request Forgery (SSRF) | `/fetch?url=` — lets users request 
 git clone https://github.com/tzcomms123/OWASP-Top-10-Demo-Flask.git
 cd OWASP-Top-10-Demo-Flask
 
-python -m venv venv
-source venv/bin/activate  # Windows: venv\Scripts\activate
+python -m venv myenv
+source venv/bin/activate  # Windows (using powershell): myenv/Scripts/activate
 
 pip install -r requirements.txt
 ```
